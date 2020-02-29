@@ -2729,6 +2729,51 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <circle x="0" y="0" radius="1.27" width="0.127" layer="41"/>
 <circle x="0" y="0" radius="1.27" width="0.127" layer="42"/>
 </package>
+<package name="SOT65P210X110-5N">
+<smd name="1" x="-1.0414" y="0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="2" x="-1.0414" y="0" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="3" x="-1.0414" y="-0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="4" x="1.0414" y="-0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<smd name="5" x="1.0414" y="0.6604" dx="1.1684" dy="0.3556" layer="1"/>
+<wire x1="-0.7112" y1="-1.0668" x2="0.7112" y2="-1.0668" width="0.1524" layer="21"/>
+<wire x1="0.7112" y1="-0.254" x2="0.7112" y2="0.254" width="0.1524" layer="21"/>
+<wire x1="-0.7112" y1="-1.0668" x2="0.7112" y2="-1.0668" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-1.0668" x2="0.7112" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.7874" x2="0.7112" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.508" x2="0.7112" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="1.0668" x2="0.3048" y2="1.0668" width="0.1524" layer="51"/>
+<wire x1="-0.3048" y1="1.0668" x2="-0.7112" y2="1.0668" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="1.0668" x2="-0.7112" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.7874" x2="-0.7112" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.508" x2="-0.7112" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.1524" x2="-0.7112" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.1524" x2="-0.7112" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.7874" x2="-1.1938" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.7874" x2="-1.1938" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.508" x2="-0.7112" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="0.1524" x2="-1.1938" y2="0.1524" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="0.1524" x2="-1.1938" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="-0.1524" x2="-0.7112" y2="-0.1524" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-1.0668" x2="-0.7112" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.7874" x2="-0.7112" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-0.7112" y1="-0.508" x2="-1.1938" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="-0.508" x2="-1.1938" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="-1.1938" y1="-0.7874" x2="-0.7112" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.7874" x2="1.1938" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="-0.7874" x2="1.1938" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="-0.508" x2="0.7112" y2="-0.508" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="1.0668" x2="0.7112" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.7874" x2="0.7112" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="0.508" x2="1.1938" y2="0.508" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="0.508" x2="1.1938" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="1.1938" y1="0.7874" x2="0.7112" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="0.3048" y1="1.0668" x2="-0.3048" y2="1.0668" width="0.1524" layer="21" curve="-180"/>
+<text x="-3.4544" y="1.27" size="1.27" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-2.54" size="1.27" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<wire x1="0.3048" y1="1.0668" x2="-0.3048" y2="1.0668" width="0.1524" layer="51" curve="-180"/>
+<wire x1="0.7112" y1="1.0668" x2="0.3048" y2="1.0668" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.0668" x2="-0.7112" y2="1.0668" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="L_POINT_V">
@@ -3286,6 +3331,18 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="1.27" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-3.175" width="0.254" layer="94"/>
+</symbol>
+<symbol name="74126">
+<text x="-2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="0.635" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
+<pin name="O" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+<wire x1="-2.54" y1="-2.54" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="-2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.175" y2="0" width="0.1524" layer="94"/>
+<pin name="EN" x="0" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4375,6 +4432,27 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 </technologies>
 </device>
 <device name="_2" package="FIDUCIAL_DUAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74HC1G126" prefix="IC">
+<description>Single Bus Buffer Gate With 3-State Outputs</description>
+<gates>
+<gate name="A" symbol="74126" x="0" y="0"/>
+<gate name="B" symbol="PWR+-" x="15.24" y="0"/>
+</gates>
+<devices>
+<device name="GW,125" package="SOT65P210X110-5N">
+<connects>
+<connect gate="A" pin="EN" pad="1"/>
+<connect gate="A" pin="I" pad="2"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="B" pin="V+" pad="5"/>
+<connect gate="B" pin="V-" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9965,94 +10043,6 @@ This work is licensed under the &lt;i&gt;&lt;a href=https://www.tapr.org/OHL&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="EEZ_TI">
-<description>EEZ Eagle library - Texas Instruments</description>
-<packages>
-<package name="SOT23-5">
-<smd name="1" x="-1.0795" y="1.016" dx="1.524" dy="0.5588" layer="1"/>
-<smd name="3" x="-1.0795" y="-1.016" dx="1.524" dy="0.5588" layer="1"/>
-<smd name="4" x="1.0795" y="-1.016" dx="1.524" dy="0.5588" layer="1"/>
-<wire x1="-0.7112" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0.1524" layer="21"/>
-<wire x1="0.7112" y1="1.4986" x2="0.254" y2="1.4986" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="1.4986" x2="-0.7112" y2="1.4986" width="0.1524" layer="21"/>
-<wire x1="0.7112" y1="0.4064" x2="0.7112" y2="-0.4064" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="1.4986" x2="-0.0762" y2="1.1938" width="0.1524" layer="21" curve="-95"/>
-<wire x1="-0.7112" y1="-1.4986" x2="0.7112" y2="-1.4986" width="0.1524" layer="51"/>
-<wire x1="0.7112" y1="-1.4986" x2="0.7112" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="0.7112" y1="1.4986" x2="0.254" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.4986" x2="-0.7112" y2="1.4986" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="1.4986" x2="-0.7112" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="1.27" x2="-0.7112" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="0.762" x2="-0.7112" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="1.27" x2="-1.2446" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-1.2446" y1="1.27" x2="-1.2446" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-1.2446" y1="0.762" x2="-0.7112" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="-1.4986" x2="-0.7112" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="-1.27" x2="-0.7112" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-0.7112" y1="-0.762" x2="-1.2446" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-1.2446" y1="-0.762" x2="-1.2446" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-1.2446" y1="-1.27" x2="-0.7112" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="1.4986" x2="-0.254" y2="1.4986" width="0.1524" layer="51" curve="-180"/>
-<text x="-2.6924" y="1.651" size="1.016" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-2.9464" y="-0.635" size="1.016" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<smd name="2" x="-1.0795" y="0" dx="1.524" dy="0.5588" layer="1"/>
-<smd name="5" x="1.0795" y="1.016" dx="1.524" dy="0.5588" layer="1"/>
-<wire x1="-0.7112" y1="0.254" x2="-1.2446" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-1.2446" y1="0.254" x2="-1.2446" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-1.2446" y1="-0.254" x2="-0.7112" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="0.7112" y1="-1.27" x2="1.2446" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="1.2446" y1="-1.27" x2="1.2446" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.2446" y1="-0.762" x2="0.7112" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="0.7112" y1="0.762" x2="1.2446" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="1.2446" y1="0.762" x2="1.2446" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="1.2446" y1="1.27" x2="0.7112" y2="1.27" width="0.1524" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="74126">
-<text x="-2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="0.635" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="I" x="-5.08" y="0" visible="pad" length="short" direction="in"/>
-<pin name="O" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
-<wire x1="-2.54" y1="-2.54" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="-2.54" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="0" x2="3.175" y2="0" width="0.1524" layer="94"/>
-<pin name="EN" x="0" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
-</symbol>
-<symbol name="PWR+-">
-<text x="1.27" y="3.175" size="0.8128" layer="94" rot="R90">V+</text>
-<text x="1.27" y="-4.445" size="0.8128" layer="94" rot="R90">V-</text>
-<pin name="V+" x="0" y="7.62" visible="pad" length="middle" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-7.62" visible="pad" length="middle" direction="pwr" rot="R90"/>
-<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="74HC1G126" prefix="IC">
-<description>Single Bus Buffer Gate With 3-State Outputs</description>
-<gates>
-<gate name="A" symbol="74126" x="0" y="0"/>
-<gate name="B" symbol="PWR+-" x="15.24" y="0"/>
-</gates>
-<devices>
-<device name="DBVT" package="SOT23-5">
-<connects>
-<connect gate="A" pin="EN" pad="1"/>
-<connect gate="A" pin="I" pad="2"/>
-<connect gate="A" pin="O" pad="4"/>
-<connect gate="B" pin="V+" pad="5"/>
-<connect gate="B" pin="V-" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-samtec">
 <description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -10584,7 +10574,7 @@ Source: Samtec SSW.pdf</description>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="SUPPLY47" library="supply2" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC2" library="EEZ_TI" deviceset="74HC1G126" device="DBVT"/>
+<part name="IC2" library="EEZ_Lib1" deviceset="74HC1G126" device="GW,125"/>
 <part name="SUPPLY51" library="supply2" deviceset="GND" device=""/>
 <part name="RN3" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-47K-4/8"/>
 <part name="RN4" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-47K-4/8"/>

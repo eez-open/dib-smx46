@@ -1,9 +1,8 @@
-Partlist exported from /home/denis/BACKUP/EEZ/PCB/Programmable PSU/DIB/EEZ DIB SMX46 r1B1.sch at 15.2.2020. 13:07
+Partlist exported from /home/denis/BACKUP/EEZ/PCB/Programmable PSU/DIB/EEZ DIB SMX46 r1B1.sch at 29.2.2020. 14:43
 
 Assembly variant: ''
 
 Qty Value            Device             Parts                                                                                                                                      
-1                    TL072SOIC8         IC6                                                                                                                                        
 1   1u               C-EUC0805          C6                                                                                                                                         
 25  2N7002           2N7002             Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25                         
 1   2u2              C-EUC0805          C8                                                                                                                                         
@@ -13,7 +12,7 @@ Qty Value            Device             Parts
 1   10n              C-EUC0805          C10                                                                                                                                        
 1   47K              R-EU_R0805         R2                                                                                                                                         
 2   47R              R-EU_R0805         R6, R12                                                                                                                                    
-1   74HC1G126DBVT    74HC1G126DBVT      IC2                                                                                                                                        
+1   74HC1G126GW,125  74HC1G126GW,125    IC2                                                                                                                                        
 1   74HC2G04GW,125   74HC2G04           IC5                                                                                                                                        
 10  100n             C-EUC0603          C1, C4, C5, C7, C12, C13, C14, C15, C17, C18                                                                                               
 2   100p             C-EUC0805          C11, C16                                                                                                                                   
@@ -30,8 +29,9 @@ Qty Value            Device             Parts
 1   LP2985-33DBVR    LP2985             IC4                                                                                                                                        
 1   M24C32-WMN6P     AT24CXXSOIC8       IC3                                                                                                                                        
 25  MM3Z18VT1G       ZENER-DIODESOD323R ZD1, ZD2, ZD3, ZD4, ZD5, ZD6, ZD7, ZD8, ZD9, ZD10, ZD11, ZD12, ZD13, ZD14, ZD15, ZD16, ZD17, ZD18, ZD19, ZD20, ZD21, ZD22, ZD23, ZD24, ZD25
-1   N.C.             22-23-2061         X1                                                                                                                                         
+1   OPA2170          TL072SOIC8         IC6                                                                                                                                        
 2   PCB-MB           PCB-MB             KK1, KK2                                                                                                                                   
 2   PESD12VL1BA.115  PESDXL1BA          TVS1, TVS2                                                                                                                                 
 1   RT424005         RELAY_RT314012-2   K_PWR                                                                                                                                      
+1   SSW-106-02-S-S   SSW-106-02-S-S     X1                                                                                                                                         
 1   STM32F030C6T6    STM32F030C6T6      IC1                                                                                                                                        
