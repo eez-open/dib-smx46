@@ -1,6 +1,6 @@
 Configuration	SMX46
-STM32CubeMX 	5.5.0
-Date	02/22/2020
+STM32CubeMX 	5.6.0
+Date	03/01/2020
 MCU	STM32F030C6Tx
 
 
