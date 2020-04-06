@@ -1,4 +1,4 @@
-Partlist exported from /home/denis/BACKUP/EEZ/PCB/Programmable PSU/DIB/EEZ DIB SMX46 r1B1.sch at 29.2.2020. 14:43
+Partlist exported from /home/denis/BACKUP/EEZ/PCB/Programmable PSU/DIB/EEZ DIB SMX46 r1B2.sch at 6.4.2020. 12:41
 
 Assembly variant: ''
 
@@ -7,7 +7,7 @@ Qty Value            Device             Parts
 25  2N7002           2N7002             Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20, Q21, Q22, Q23, Q24, Q25                         
 1   2u2              C-EUC0805          C8                                                                                                                                         
 2   4K7              R-EU_R0805         R4, R10                                                                                                                                    
-2   4u7              C-EUC1206          C2, C9                                                                                                                                     
+2   4u7              C-EUC0805          C2, C9                                                                                                                                     
 7   10K              R-EU_R0805         R1, R3, R5, R8, R9, R11, R14                                                                                                               
 1   10n              C-EUC0805          C10                                                                                                                                        
 1   47K              R-EU_R0805         R2                                                                                                                                         
