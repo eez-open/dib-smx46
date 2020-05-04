@@ -79,6 +79,8 @@
 <layer number="100" name="Measurement" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="101" name="Pinouts" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Signals" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="extrainfo" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="comments" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
@@ -87,6 +89,7 @@
 <layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="EEZ" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="120" name="lotbs" color="7" fill="1" visible="no" active="no"/>
@@ -2765,6 +2768,37 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="0.7112" y1="1.0668" x2="0.3048" y2="1.0668" width="0.1524" layer="21"/>
 <wire x1="-0.3048" y1="1.0668" x2="-0.7112" y2="1.0668" width="0.1524" layer="21"/>
 </package>
+<package name="PCB_TEST_TAB">
+<description>PCB mounting tab, 2.8 x 0.8 mm 378008.68&lt;br&gt;
+Buerklin: &lt;b&gt;05 F 142&lt;/b&gt;</description>
+<circle x="0" y="0" radius="1.796" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="1.1" diameter="2.54" shape="octagon"/>
+<text x="2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="EARTH_PIN">
+<pad name="P$1" x="0" y="0" drill="1.8" diameter="2.54" shape="long"/>
+<text x="-3.31" y="1.905" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.31" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.27" y1="1.524" x2="-1.27" y2="-1.524" width="0.1524" layer="21" curve="180"/>
+<wire x1="1.27" y1="-1.524" x2="1.27" y2="1.524" width="0.1524" layer="21" curve="180"/>
+</package>
+<package name="PCB_SHIELD_TAB">
+<circle x="0" y="0" radius="1.2" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.1" shape="octagon"/>
+<text x="-2.8575" y="1.5875" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="S1751-46R">
+<smd name="P$1" x="0" y="0" dx="3.7" dy="2.1" layer="1"/>
+<wire x1="-2.032" y1="1.27" x2="-1.905" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="2.159" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.159" y1="1.27" x2="2.159" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.159" y1="-1.27" x2="-2.159" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-2.159" y1="1.27" x2="-2.032" y2="1.27" width="0.127" layer="21"/>
+<text x="-2.2225" y="1.5875" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.2225" y="-2.54" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="L_POINT_V">
@@ -3334,6 +3368,13 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <wire x1="5.08" y1="0" x2="3.175" y2="0" width="0.1524" layer="94"/>
 <pin name="EN" x="0" y="-5.08" visible="pad" length="short" direction="in" rot="R90"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="TEST_TAB">
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<circle x="0.635" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="0" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P$1" x="-2.54" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4443,6 +4484,45 @@ Panasonic TS-HA series,  ECOS1VA103CA (10.000uF/35V)&lt;br&gt;Farnell: &lt;b&gt;
 <connect gate="A" pin="O" pad="4"/>
 <connect gate="B" pin="V+" pad="5"/>
 <connect gate="B" pin="V-" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCB_TEST_TAB" prefix="TP" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TEST_TAB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TEST_TAB" package="PCB_TEST_TAB">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EARTH_PIN" package="EARTH_PIN">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SHIELD" package="PCB_SHIELD_TAB">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="S1751-46R">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10578,6 +10658,7 @@ Source: Samtec SSW.pdf</description>
 <part name="FM2" library="EEZ_Lib1" deviceset="FIDUCIAL" device="_2"/>
 <part name="FM1" library="EEZ_Lib1" deviceset="FIDUCIAL" device="_2"/>
 <part name="X1" library="con-samtec" deviceset="SSW-106-02-S-S" device=""/>
+<part name="GND" library="EEZ_Lib1" deviceset="PCB_TEST_TAB" device="SHIELD"/>
 </parts>
 <sheets>
 <sheet>
@@ -10649,8 +10730,8 @@ Source: Samtec SSW.pdf</description>
 <wire x1="114.3" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="101"/>
 <circle x="115.57" y="130.81" radius="0.635" width="0.1524" layer="101"/>
 <circle x="118.11" y="130.81" radius="0.635" width="0.1524" layer="101"/>
-<text x="120.65" y="130.175" size="1.4224" layer="101">28 UART_RX</text>
-<text x="113.03" y="131.445" size="1.4224" layer="101" rot="R180">UART_TX 27</text>
+<text x="120.65" y="130.175" size="1.4224" layer="101">28 UART_TX</text>
+<text x="113.03" y="131.445" size="1.4224" layer="101" rot="R180">UART_RX 27</text>
 <text x="7.62" y="63.5" size="1.778" layer="97" rot="MR180">I2C Module ID EEPROM</text>
 <wire x1="142.24" y1="177.8" x2="142.24" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="142.24" y1="154.94" x2="142.24" y2="66.04" width="0.1524" layer="97" style="shortdash"/>
@@ -10866,12 +10947,12 @@ Source: Samtec SSW.pdf</description>
 <instance part="+3V3" gate="G$1" x="233.045" y="73.66" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="233.68" y="74.93" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C3" gate="G$1" x="22.86" y="116.84" smashed="yes">
-<attribute name="NAME" x="24.638" y="115.4176" size="1.778" layer="95"/>
-<attribute name="VALUE" x="24.638" y="112.8776" size="1.27" layer="96"/>
+<instance part="C3" gate="G$1" x="22.86" y="116.84" smashed="yes" rot="MR0">
+<attribute name="NAME" x="21.082" y="115.4176" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="21.082" y="112.8776" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="SUPPLY45" gate="GND" x="22.86" y="106.68" smashed="yes">
-<attribute name="VALUE" x="24.765" y="107.315" size="1.778" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="19.685" y="104.775" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C9" gate="G$1" x="81.28" y="35.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="81.026" y="37.846" size="1.778" layer="95" rot="MR0"/>
@@ -10908,7 +10989,7 @@ Source: Samtec SSW.pdf</description>
 </instance>
 <instance part="IC2" gate="A" x="88.9" y="106.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.44" y="103.505" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="89.535" y="111.76" size="1.27" layer="96" rot="MR180"/>
+<attribute name="VALUE" x="85.725" y="100.965" size="1.27" layer="96" rot="MR180"/>
 </instance>
 <instance part="IC2" gate="B" x="124.46" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="125.73" y="111.125" size="1.778" layer="95" rot="MR0"/>
@@ -11021,6 +11102,10 @@ Source: Samtec SSW.pdf</description>
 <instance part="X1" gate="-4" x="177.8" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="180.848" y="165.862" size="1.524" layer="95" rot="MR180"/>
 </instance>
+<instance part="GND" gate="G$1" x="165.1" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="162.56" y="106.045" size="1.778" layer="95"/>
+<attribute name="VALUE" x="167.64" y="104.14" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 <bus name="OUT[0..23]">
@@ -11122,8 +11207,8 @@ Source: Samtec SSW.pdf</description>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="22.86" y1="111.76" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
+<wire x1="22.86" y1="111.76" x2="22.86" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -11248,6 +11333,8 @@ Source: Samtec SSW.pdf</description>
 <pinref part="SUPPLY48" gate="GND" pin="GND"/>
 <wire x1="165.1" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <junction x="165.1" y="99.06"/>
+<pinref part="GND" gate="G$1" pin="P$1"/>
+<wire x1="165.1" y1="101.6" x2="165.1" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -11908,9 +11995,9 @@ Source: Samtec SSW.pdf</description>
 <pinref part="IC1" gate="G$1" pin="PA10"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-27" pin="1"/>
-<wire x1="35.56" y1="124.46" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
-<label x="7.62" y="125.095" size="1.27" layer="102"/>
+<pinref part="X2" gate="-28" pin="1"/>
+<wire x1="68.58" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
+<label x="83.82" y="125.095" size="1.27" layer="102" rot="MR0"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -11979,11 +12066,11 @@ Source: Samtec SSW.pdf</description>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="X2" gate="-28" pin="1"/>
-<wire x1="68.58" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="124.46" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="O"/>
+<wire x1="81.28" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="106.68" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-27" pin="1"/>
+<wire x1="27.94" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -14932,6 +15019,7 @@ Source: Samtec SSW.pdf</description>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,3,131.976,90.066,FRAME2,,,,,"/>
+<approved hash="113,1,165.385,103.839,GND,,,,,"/>
 </errors>
 </schematic>
 </drawing>
