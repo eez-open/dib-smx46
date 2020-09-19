@@ -15179,7 +15179,6 @@ Source: Samtec SSW.pdf</description>
 <approved hash="101,1,68.58,157.48,X2-2,1,,,,"/>
 <approved hash="101,1,35.56,154.94,X2-3,1,,,,"/>
 <approved hash="101,1,68.58,152.4,X2-6,1,,,,"/>
-<approved hash="101,1,68.58,144.78,X2-12,1,,,,"/>
 <approved hash="104,1,48.26,50.8,IC3,VCC,+3V3,,,"/>
 <approved hash="104,2,172.72,63.5,IC5P,V+,+3V3,,,"/>
 <approved hash="104,2,172.72,48.26,IC5P,V-,GND,,,"/>
@@ -15190,7 +15189,7 @@ Source: Samtec SSW.pdf</description>
 <approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
 <approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
 <approved hash="113,3,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,1,165.385,103.839,GND,,,,,"/>
+<approved hash="113,1,157.765,106.379,GND,,,,,"/>
 </errors>
 </schematic>
 </drawing>
