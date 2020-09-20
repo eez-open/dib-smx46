@@ -10773,7 +10773,7 @@ Source: Samtec SSW.pdf</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="SUPPLY63" library="supply2" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="1u"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
