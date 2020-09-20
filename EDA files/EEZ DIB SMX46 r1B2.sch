@@ -10730,7 +10730,7 @@ Source: Samtec SSW.pdf</description>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="SUPPLY36" library="supply2" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC6" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="OPA2170"/>
+<part name="IC6" library="EEZ_Lib1" deviceset="TL072" device="SOIC8" value="OPA2990IDR"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="4K7"/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
@@ -10768,7 +10768,7 @@ Source: Samtec SSW.pdf</description>
 <part name="SUPPLY48" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY49" library="supply2" deviceset="GND" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="4u7"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
 <part name="SUPPLY61" library="supply2" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="10K"/>
@@ -10780,7 +10780,7 @@ Source: Samtec SSW.pdf</description>
 <part name="RN1" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-33R-4/8"/>
 <part name="C3" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="SUPPLY45" library="supply2" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="4u7"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
 <part name="RN2" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-10K-4/8"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
@@ -12266,22 +12266,22 @@ Source: Samtec SSW.pdf</description>
 <circle x="214.63" y="166.37" radius="0.635" width="0.1524" layer="101"/>
 <circle x="214.63" y="163.83" radius="0.635" width="0.1524" layer="101"/>
 <circle x="214.63" y="161.29" radius="0.635" width="0.1524" layer="101"/>
-<text x="204.47" y="164.465" size="1.4224" layer="101" rot="R180">X3B</text>
-<text x="217.17" y="165.735" size="1.4224" layer="101">Y2A</text>
+<text x="204.47" y="164.465" size="1.4224" layer="101" rot="R180">Y2B</text>
+<text x="217.17" y="165.735" size="1.4224" layer="101">X2A</text>
 <wire x1="162.56" y1="129.54" x2="162.56" y2="177.8" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="205.74" y1="172.72" x2="215.9" y2="172.72" width="0.1524" layer="101"/>
 <text x="193.04" y="174.625" size="1.778" layer="101">2 x 16-pin front panel connector</text>
-<text x="217.17" y="160.655" size="1.4224" layer="101">Y3A</text>
+<text x="217.17" y="160.655" size="1.4224" layer="101">X3A</text>
 <wire x1="215.9" y1="172.72" x2="215.9" y2="167.64" width="0.1524" layer="101"/>
 <circle x="207.01" y="156.21" radius="0.635" width="0.1524" layer="101"/>
 <circle x="214.63" y="156.21" radius="0.635" width="0.1524" layer="101"/>
-<text x="204.47" y="161.925" size="1.4224" layer="101" rot="R180">X2A</text>
+<text x="204.47" y="161.925" size="1.4224" layer="101" rot="R180">Y3A</text>
 <circle x="207.01" y="158.75" radius="0.635" width="0.1524" layer="101"/>
 <circle x="214.63" y="158.75" radius="0.635" width="0.1524" layer="101"/>
-<text x="217.17" y="170.815" size="1.4224" layer="101">Y1A</text>
-<text x="204.47" y="172.085" size="1.4224" layer="101" rot="R180">X4A</text>
+<text x="217.17" y="170.815" size="1.4224" layer="101">X1A</text>
+<text x="204.47" y="172.085" size="1.4224" layer="101" rot="R180">Y1A</text>
 <circle x="214.63" y="153.67" radius="0.635" width="0.1524" layer="101"/>
-<text x="217.17" y="163.195" size="1.4224" layer="101">Y2B</text>
+<text x="217.17" y="163.195" size="1.4224" layer="101">X2B</text>
 <circle x="207.01" y="153.67" radius="0.635" width="0.1524" layer="101"/>
 <circle x="207.01" y="150.495" radius="0.635" width="0.1524" layer="101"/>
 <circle x="207.01" y="147.955" radius="0.635" width="0.1524" layer="101"/>
@@ -12293,9 +12293,9 @@ Source: Samtec SSW.pdf</description>
 <circle x="214.63" y="145.415" radius="0.635" width="0.1524" layer="101"/>
 <circle x="214.63" y="142.875" radius="0.635" width="0.1524" layer="101"/>
 <circle x="214.63" y="140.335" radius="0.635" width="0.1524" layer="97"/>
-<text x="204.47" y="167.005" size="1.4224" layer="101" rot="R180">X3A</text>
-<text x="217.17" y="168.275" size="1.4224" layer="101">Y1B</text>
-<text x="204.47" y="169.545" size="1.4224" layer="101" rot="R180">X4B</text>
+<text x="204.47" y="167.005" size="1.4224" layer="101" rot="R180">Y2A</text>
+<text x="217.17" y="168.275" size="1.4224" layer="101">X1B</text>
+<text x="204.47" y="169.545" size="1.4224" layer="101" rot="R180">Y1B</text>
 <wire x1="215.9" y1="167.64" x2="215.9" y2="162.56" width="0.1524" layer="101"/>
 <wire x1="215.9" y1="162.56" x2="215.9" y2="157.48" width="0.1524" layer="101"/>
 <wire x1="215.9" y1="157.48" x2="215.9" y2="152.4" width="0.1524" layer="101"/>
@@ -12324,9 +12324,9 @@ Source: Samtec SSW.pdf</description>
 <wire x1="205.74" y1="162.56" x2="215.9" y2="162.56" width="0.1524" layer="101" style="shortdash"/>
 <wire x1="205.74" y1="146.685" x2="215.9" y2="146.685" width="0.1524" layer="101" style="shortdash"/>
 <wire x1="205.74" y1="141.605" x2="215.9" y2="141.605" width="0.1524" layer="101" style="shortdash"/>
-<text x="204.47" y="156.845" size="1.4224" layer="101" rot="R180">X1A</text>
-<text x="204.47" y="154.305" size="1.4224" layer="101" rot="R180">X1B</text>
-<text x="204.47" y="159.385" size="1.4224" layer="101" rot="R180">X2B</text>
+<text x="204.47" y="156.845" size="1.4224" layer="101" rot="R180">Y4A</text>
+<text x="204.47" y="154.305" size="1.4224" layer="101" rot="R180">Y4B</text>
+<text x="204.47" y="159.385" size="1.4224" layer="101" rot="R180">Y3B</text>
 <text x="204.47" y="148.59" size="1.4224" layer="101" rot="R180">AGND</text>
 <text x="204.47" y="146.05" size="1.4224" layer="101" rot="R180">DAC2</text>
 <text x="204.47" y="151.13" size="1.4224" layer="101" rot="R180">DAC1</text>
@@ -12335,13 +12335,13 @@ Source: Samtec SSW.pdf</description>
 <text x="204.47" y="143.51" size="1.4224" layer="101" rot="R180">AGND</text>
 <text x="204.47" y="133.35" size="1.4224" layer="101" rot="R180">K-NC</text>
 <text x="204.47" y="135.89" size="1.4224" layer="101" rot="R180">K-COMM</text>
-<text x="217.17" y="158.115" size="1.4224" layer="101">Y3B</text>
-<text x="217.17" y="153.035" size="1.4224" layer="101">Y4B</text>
-<text x="217.17" y="155.575" size="1.4224" layer="101">Y4A</text>
-<text x="217.17" y="149.86" size="1.4224" layer="101">Y5A</text>
-<text x="217.17" y="144.78" size="1.4224" layer="101">Y6A</text>
-<text x="217.17" y="147.32" size="1.4224" layer="101">Y5B</text>
-<text x="217.17" y="142.24" size="1.4224" layer="101">Y6B</text>
+<text x="217.17" y="158.115" size="1.4224" layer="101">X3B</text>
+<text x="217.17" y="153.035" size="1.4224" layer="101">X4B</text>
+<text x="217.17" y="155.575" size="1.4224" layer="101">X4A</text>
+<text x="217.17" y="149.86" size="1.4224" layer="101">X5A</text>
+<text x="217.17" y="144.78" size="1.4224" layer="101">X6A</text>
+<text x="217.17" y="147.32" size="1.4224" layer="101">X5B</text>
+<text x="217.17" y="142.24" size="1.4224" layer="101">X6B</text>
 <text x="217.17" y="137.16" size="1.4224" layer="101">K-NO</text>
 <text x="217.17" y="139.7" size="1.4224" layer="97">N.C.</text>
 <text x="217.17" y="134.62" size="1.4224" layer="101">K-COMM</text>
