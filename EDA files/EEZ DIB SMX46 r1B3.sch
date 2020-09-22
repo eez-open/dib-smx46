@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="4" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -12242,6 +12242,18 @@ Source: Samtec SSW.pdf</description>
 <pinref part="DIB1.1" gate="G$1" pin="COM"/>
 <wire x1="233.68" y1="111.76" x2="246.38" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="111.76" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DIB_SYNC" class="0">
+<segment>
+<pinref part="X2" gate="-6" pin="1"/>
+<wire x1="68.58" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<label x="83.82" y="153.035" size="1.27" layer="102" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC15-OSC32_OUT"/>
+<wire x1="175.26" y1="111.76" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
+<label x="162.56" y="112.395" size="1.27" layer="102"/>
 </segment>
 </net>
 </nets>
