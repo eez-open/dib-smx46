@@ -1,3 +1,5 @@
+[![OSHW-HR000004](OSHW_UID_HR4.svg)](https://certification.oshwa.org/hr000002.html)
+
 The EEZ DIB SMX46 module features programmable 4 x 6 switch matrix,  dual analog outputs and one power relay. 
 
 ### Feature list
