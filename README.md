@@ -16,6 +16,10 @@ The EEZ DIB SMX46 module features programmable 4 x 6 switch matrix,  dual analog
 * I2C EEPROM for storing board specific parameters
 * Dimensions: 146 x 95 mm, 2-layer PCB
 
+### Firmware repository
+
+https://github.com/eez-open/dib-smx46-fw
+
 ### r1B2 prototype
 
 ![prototype](Images/SMX46_prototype_r1B2.JPG)
