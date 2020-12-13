@@ -13595,6 +13595,8 @@ Source: Samtec SSW.pdf</description>
 <text x="7.62" y="175.26" size="1.778" layer="97">DIB connector</text>
 <text x="7.62" y="88.9" size="1.778" layer="97" rot="MR180">ADIB connectors</text>
 <wire x1="142.24" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
+<text x="27.94" y="66.675" size="1.4224" layer="103">ADIB1_ID=001</text>
+<text x="81.28" y="66.675" size="1.4224" layer="103">ADIB2_ID=001</text>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="149.86" y="17.78" smashed="yes">
@@ -15055,6 +15057,28 @@ Source: Samtec SSW.pdf</description>
 <pinref part="X7" gate="-3" pin="1"/>
 <wire x1="83.82" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <label x="73.66" y="79.375" size="1.27" layer="102"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="X6" gate="-7" pin="1"/>
+<wire x1="30.48" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="73.66" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="68.58" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="X6" gate="-10" pin="1"/>
+<wire x1="58.42" y1="71.12" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="X7" gate="-7" pin="1"/>
+<wire x1="83.82" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="73.66" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="68.58" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="X7" gate="-10" pin="1"/>
+<wire x1="111.76" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -17734,18 +17758,29 @@ Source: Samtec SSW.pdf</description>
 <approved hash="101,1,35.56,157.48,X2-1,1,,,,"/>
 <approved hash="101,1,68.58,157.48,X2-2,1,,,,"/>
 <approved hash="101,1,35.56,154.94,X2-3,1,,,,"/>
-<approved hash="101,1,68.58,152.4,X2-6,1,,,,"/>
-<approved hash="104,1,48.26,50.8,IC3,VCC,+3V3,,,"/>
+<approved hash="101,1,30.48,81.28,X6-1,1,,,,"/>
+<approved hash="101,1,30.48,76.2,X6-5,1,,,,"/>
+<approved hash="101,1,30.48,71.12,X6-9,1,,,,"/>
+<approved hash="101,1,55.88,81.28,X6-2,1,,,,"/>
+<approved hash="101,1,55.88,76.2,X6-6,1,,,,"/>
+<approved hash="101,1,55.88,73.66,X6-8,1,,,,"/>
+<approved hash="101,1,83.82,81.28,X7-1,1,,,,"/>
+<approved hash="101,1,83.82,76.2,X7-5,1,,,,"/>
+<approved hash="101,1,83.82,71.12,X7-9,1,,,,"/>
+<approved hash="101,1,109.22,81.28,X7-2,1,,,,"/>
+<approved hash="101,1,109.22,76.2,X7-6,1,,,,"/>
+<approved hash="101,1,109.22,73.66,X7-8,1,,,,"/>
+<approved hash="104,1,48.26,45.72,IC3,VCC,+3V3,,,"/>
 <approved hash="104,2,172.72,63.5,IC5P,V+,+3V3,,,"/>
 <approved hash="104,2,172.72,48.26,IC5P,V-,GND,,,"/>
 <approved hash="104,2,190.5,63.5,IC6P,V+,+12V,,,"/>
 <approved hash="104,2,190.5,48.26,IC6P,V-,GND,,,"/>
 <approved hash="104,1,124.46,119.38,IC2B,V+,+3V3,,,"/>
 <approved hash="104,1,124.46,104.14,IC2B,V-,GND,,,"/>
-<approved hash="113,1,131.976,90.066,FRAME7,,,,,"/>
-<approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
-<approved hash="113,3,131.976,90.066,FRAME2,,,,,"/>
-<approved hash="113,1,157.765,106.379,GND,,,,,"/>
+<approved hash="113,1,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="113,2,131.976,90.066,FRAME2,,,,,"/>
+<approved hash="113,3,131.976,90.066,FRAME3,,,,,"/>
+<approved hash="113,1,157.274,106.379,TP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
