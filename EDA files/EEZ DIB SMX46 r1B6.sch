@@ -13480,7 +13480,7 @@ Source: Samtec SSW.pdf</description>
 <part name="C3" library="EEZ_Lib1" deviceset="ECAP" device="PANASONIC_H" value="EEEFK1V470P"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805" value="2u2"/>
-<part name="RN2" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-10K-4/8"/>
+<part name="RN2" library="EEZ_Lib1" deviceset="R_ARRAY4" device="" value="DR1206-47K-4/8"/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V38" library="supply1" deviceset="+3V3" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
