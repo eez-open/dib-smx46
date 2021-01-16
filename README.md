@@ -20,6 +20,6 @@ The EEZ DIB SMX46 module features programmable 4 x 6 switch matrix,  dual analog
 
 https://github.com/eez-open/dib-smx46-fw
 
-### r1B2 prototype
+### r1B5 prototype
 
-![prototype](Images/SMX46_prototype_r1B2.JPG)
+![prototype](Images/SMX46_prototype_r1B5.JPG)
