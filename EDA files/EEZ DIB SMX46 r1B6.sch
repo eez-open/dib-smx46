@@ -13597,6 +13597,9 @@ Source: Samtec SSW.pdf</description>
 <wire x1="142.24" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
 <text x="27.94" y="66.675" size="1.4224" layer="103">ADIB1_ID=001</text>
 <text x="81.28" y="66.675" size="1.4224" layer="103">ADIB2_ID=001</text>
+<text x="162.56" y="107.315" size="1.27" layer="103">PCB_ID1</text>
+<text x="162.56" y="109.855" size="1.27" layer="103">PCB_ID0</text>
+<text x="144.78" y="109.855" size="1.27" layer="103">PCB_ID=0</text>
 </plain>
 <instances>
 <instance part="KK1" gate="G$1" x="149.86" y="17.78" smashed="yes">
@@ -13957,9 +13960,9 @@ Source: Samtec SSW.pdf</description>
 <instance part="X1" gate="-4" x="175.26" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="178.308" y="165.862" size="1.524" layer="95" rot="MR180"/>
 </instance>
-<instance part="TP1" gate="G$1" x="157.48" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="154.94" y="108.585" size="1.778" layer="95"/>
-<attribute name="VALUE" x="160.02" y="106.68" size="1.778" layer="96" rot="R90"/>
+<instance part="TP1" gate="G$1" x="157.48" y="109.22" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.94" y="111.125" size="1.778" layer="95"/>
+<attribute name="VALUE" x="160.02" y="109.22" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="JP1" gate="G$1" x="246.38" y="86.36" smashed="yes" rot="MR90">
 <attribute name="NAME" x="240.665" y="87.63" size="1.27" layer="95"/>
@@ -14258,7 +14261,15 @@ Source: Samtec SSW.pdf</description>
 <wire x1="157.48" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="157.48" y="101.6"/>
 <pinref part="TP1" gate="G$1" pin="P$1"/>
-<wire x1="157.48" y1="104.14" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="106.68" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="PF1-OSC_OUT"/>
+<wire x1="175.26" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
+<junction x="157.48" y="106.68"/>
+<pinref part="IC1" gate="G$1" pin="PF0-OSC_IN"/>
+<wire x1="160.02" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="109.22" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
+<junction x="160.02" y="106.68"/>
 </segment>
 </net>
 <net name="+12V" class="0">
